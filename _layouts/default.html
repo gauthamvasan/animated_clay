@@ -52,8 +52,8 @@
         <meta property="og:image:url" content="https://englightenedidiot.net/assets/images/avatar.jpg"/>
         {% endif %}
 
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/main_1548935627.css">
+        <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ site.url }}/css/main_1548935627.css">
         
         <!-- Font Awesome -->
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
@@ -110,8 +110,8 @@
                         <ul class="nav-bar">
                             <li><a href="https://gauthamvasan.github.io">Home</a></li>
                             <li><a target="_blank" href="https://gauthamvasan.github.io/Resume.pdf">CV</a></li>
-                            <li class="hide-link-on-small-screens"><a href="#">Tech Blog</a></li>
-			    <li><a href="https://enlightenedidiot.net/" target="_blank">Enlightened Idiot</a></li>
+                            <li><a href="{{site.url}}">Tech Blog</a></li>
+			                <li><a href="https://enlightenedidiot.net/" target="_blank">Enlightened Idiot</a></li>
                             <!-- <li class="hide-link-on-small-screens"><a href="/bookshelf">Bookshelf</a></li>  -->
                         </ul>
                     </div>
