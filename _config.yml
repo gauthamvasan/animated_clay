@@ -4,6 +4,7 @@ url: https://gauthamvasan.github.io/animated_clay
 author:
   name: Gautham Vasan
   email: gauthamv.529@gmail.com
-  description: "Statistical Machine Learning PhD student at the University of Alberta. I'm interested in building machines with human-like intelligence."
+  description: "PhD student at the University of Alberta. I'm interested in building machines with human-like intelligence."
 permalink: /posts/:title/
+baseurl: /animated_clay
 include: ['_pages']

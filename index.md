@@ -15,7 +15,7 @@ permalink:  /
         <ul class="entries">
             {% for post in site.posts %}
                 <li>
-                    <span class="title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+                    <span class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
                     <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
                 </li>
             {% endfor %}
