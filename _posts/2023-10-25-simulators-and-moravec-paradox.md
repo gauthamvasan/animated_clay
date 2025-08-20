@@ -8,7 +8,7 @@ excerpt:    ""
 <div class="row">
     <div class="col-xs-10">
         <p class="pubd">
-            <img src="/img/moravec_paradox.png">
+            <img src="{{ site.baseurl }}/img/moravec_paradox.png">
         </p>
     </div>
 </div>

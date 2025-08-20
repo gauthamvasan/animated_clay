@@ -6,7 +6,7 @@ excerpt:    ""
 ---
 
 <center>
-<img src="/img/WallE_starry_night.jpg">
+<img src="{{ site.baseurl }}/img/WallE_starry_night.jpg">
 </center>
 
 <br>
