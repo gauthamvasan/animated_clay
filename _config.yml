@@ -6,5 +6,10 @@ author:
   email: gauthamv.529@gmail.com
   description: "PhD student at the University of Alberta. I'm interested in building machines with human-like intelligence."
 permalink: /posts/:title/
-baseurl: /animated_clay
+baseurl: /animated_clay/
 include: ['_pages']
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  math_engine_opts: {}
